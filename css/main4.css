@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+.images {
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.images li {
+  float: left;
+  margin: 20px;
+}
+
+.images img {
+  width: 100px;
+  height: 120px;
+}
+
+.information p {
+  display: none;
+}
+
+.information p.active {
+  display: block;
+  font-style: italic;
+}
